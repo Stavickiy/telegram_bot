@@ -1,49 +1,48 @@
 # iHerbDonbassBot
 
-iHerbDonbassBot - это асинхронный чат-бот для Telegram, предназначенный для взаимодействия с пользователями интернет-магазина iHerbDonbass. Бот предоставляет информацию о категориях, брендах и продуктах, доступных в магазине, а также позволяет отправить сообщение менеджеру.
+iHerbDonbassBot is an asynchronous chatbot for Telegram, designed to interact with users of the iHerbDonbass online store. The bot provides information about categories, brands and products available in the store, and also allows you to send a message to the manager.
 
 <p align="center">
-  <img src="iHerbDonbassBot/media/img/1.png" alt="Описание изображения" width="300"/>
-  <img src="iHerbDonbassBot/media/img/2.png" alt="Описание изображения" width="300"/>
+<img src="iHerbDonbassBot/media/img/1.png" alt="Image Description" width="300"/>
+<img src="iHerbDonbassBot/media/img/2.png" alt="Image Description" width="300"/>
 </p>
 
-## Установка
+## Installation
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/yourusername/iHerbDonbassBot.git
-    cd iHerbDonbassBot
-    ```
+```bash
+git clone https://github.com/yourusername/iHerbDonbassBot.git
+cd iHerbDonbassBot
+```
 
-2. Создайте виртуальное окружение и активируйте его:
+2. Create a virtual environment and activate it:
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # для Windows: venv\Scripts\activate
-    ```
+```bash
+python -m venv venv
+source venv/bin/activate # for Windows: venv\Scripts\activate
+```
 
-3. Установите зависимости:
+3. Install dependencies:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
-4. Создайте файл `.env` и добавьте в него необходимые переменные окружения:
+4. Create a `.env` file and add the necessary environment variables to it:
 
-    ```env
-    TOKEN=YOUR_TELEGRAM_BOT_TOKEN
-    API_BASE_URL=YOUR_API_BASE_URL
-    PRODUCTS_BASE_URL=YOUR_PRODUCTS_BASE_URL
-    ADMIN_USER_NAME=YOUR_ADMIN_USERNAME
-    ```
+```env
+TOKEN=YOUR_TELEGRAM_BOT_TOKEN
+API_BASE_URL=YOUR_API_BASE_URL
+PRODUCTS_BASE_URL=YOUR_PRODUCTS_BASE_URL
+ADMIN_USER_NAME=YOUR_ADMIN_USERNAME
+```
 
-## Использование
+## Usage
 
-Запустите бота:
+Run the bot:
 
 ```bash
 python bot.py
 ```
-Бот будет запущен и начнет обрабатывать сообщения пользователей.
-
+The bot will be launched and will start processing user messages.
